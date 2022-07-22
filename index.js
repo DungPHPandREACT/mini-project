@@ -26,7 +26,7 @@ function renderProducts(listProduct) {
             alt="..."
             />
             <div class="card-body">
-            <h5 class="card-title">${listProduct[i].name}</h5>
+            <a class="card-title" href="./DetailProduct/index.html?product-id=${i}">${listProduct[i].name}</a>
             <p class="card-price">Price: ${listProduct[i].price} VNĐ</p>
             <p class="card-text">
                 ${listProduct[i].description}
